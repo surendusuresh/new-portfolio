@@ -7,6 +7,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "compression": "^1.7.4",
+    "emailjs-com": "^2.6.4",
     "express": "^4.17.1",
     "firebase": "^8.2.1",
     "list-react-files": "^0.2.0",
@@ -24,6 +25,7 @@
     "react-scripts": "4.0.1",
     "react-sticky": "^6.0.3",
     "react-sticky-el": "^2.0.5",
+    "validator": "^13.5.2",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

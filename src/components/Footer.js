@@ -1,14 +1,13 @@
 import React from "react";
 import { NavHashLink } from "react-router-hash-link";
 
-
 const Footer = () => {
   const aboutMe = () => {
     return (
       <div className="footer__intro flex">
         <div>
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/new-portfolio-3502a.appspot.com/o/myImage.jpg?alt=media&token=eab8ff79-4b51-46f4-8ca0-80ef981b1225"
+            src="https://firebasestorage.googleapis.com/v0/b/new-portfolio-3502a.appspot.com/o/images%2FmyImage.jpg?alt=media&token=3931dd8b-52d8-44cc-8faf-fbee2ec72da1"
             alt="Surendu Suresh"
             className=""
           />
@@ -33,15 +32,23 @@ const Footer = () => {
         <div className="footer__flex">
           <div>{aboutMe()}</div>
           <div className="footer__items">
-            <a href='https://www.linkedin.com/in/surendusuresh/' target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.linkedin.com/in/surendusuresh/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 className="footer__img"
-                src="https://firebasestorage.googleapis.com/v0/b/new-portfolio-3502a.appspot.com/o/linkedin.png?alt=media&token=53933e6d-a388-4dd9-9e68-86e9906b461c"
+                src="https://firebasestorage.googleapis.com/v0/b/new-portfolio-3502a.appspot.com/o/images%2Flinkedin.png?alt=media&token=93993f6c-cc3f-45bd-9dec-48512fefc164"
                 alt="linkedin"
               />
               <span className="footer__white"> LINKEDIN</span>
             </a>
             <h6>Connect with me via LinkedIn</h6>
+            <NavHashLink to="/contact" className="footer__white">
+              GET IN TOUCH
+            </NavHashLink>
+            <h6>Connect with me</h6>
           </div>
           <div className="footer__items">
             <NavHashLink to="#about" className="footer__white">

@@ -21,7 +21,7 @@ const Header = () => {
       <NavHashLink to="/#home" smooth>
         <div>
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/new-portfolio-3502a.appspot.com/o/logo.png?alt=media&token=a1b93eab-31ba-43dc-b8a9-44db3ce05ca7"
+            src="https://firebasestorage.googleapis.com/v0/b/new-portfolio-3502a.appspot.com/o/images%2Flogo.png?alt=media&token=0aeb5a41-bf63-4e5d-bcc7-3fc96b2884fd"
             alt="logo"
             className="header__logo"
           ></img>
@@ -82,7 +82,7 @@ const Header = () => {
       <NavHashLink to="/#home" smooth>
         <div>
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/new-portfolio-3502a.appspot.com/o/logo.png?alt=media&token=a1b93eab-31ba-43dc-b8a9-44db3ce05ca7"
+            src="https://firebasestorage.googleapis.com/v0/b/new-portfolio-3502a.appspot.com/o/images%2Flogo.png?alt=media&token=0aeb5a41-bf63-4e5d-bcc7-3fc96b2884fd"
             alt="logo"
             className="header__logo"
           ></img>

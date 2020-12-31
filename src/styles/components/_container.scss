@@ -113,3 +113,75 @@
   min-height: 60rem !important;
 }
 
+.contact__form {
+  margin: $s-size;
+  @media(min-width: $ipad-breakpoint){
+      margin-top: $s-size;
+      max-width: 80rem;
+  }
+}
+
+.contact__form-border{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 5px;
+  
+  width: 50%;
+  justify-content: center;
+  margin: auto;
+  @media(min-width: $ipad-breakpoint){
+      padding: 20px;
+      margin-bottom: 20px;
+      
+      margin-left: 2.5rem;
+  }
+}
+
+.contact__title {
+  padding-top: 12rem;
+  font-size: 2.5rem;
+  color: $primary-color;
+  font-weight: 300;
+  @media(min-width: $ipad-breakpoint){   
+      font-size: 3rem;
+      padding-left: 3rem;
+  }
+}
+
+.contact__form-label {
+  font-size: 1.5rem;
+}
+
+.contact__form-input {
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+
+.contact__form-textarea {
+  width: 100%;
+  height: 150px;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+
+.contact__form-button {
+  background-color: $blue;
+  border: none;
+  width: 120px;
+  height: 40px;
+  color: white;
+  border-radius: 3px;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  &:disabled {
+      background-color:grey;
+  }
+}
+
+.contact__messages {
+  text-align: center;
+  color: grey;
+  font-size: 2rem;
+}
