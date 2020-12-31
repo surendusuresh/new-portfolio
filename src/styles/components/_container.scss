@@ -124,15 +124,14 @@
 .contact__form-border{
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 5px;
+  padding: 5px;  
   
-  width: 50%;
   justify-content: center;
   margin: auto;
   @media(min-width: $ipad-breakpoint){
       padding: 20px;
       margin-bottom: 20px;
-      
+      width: 50%;
       margin-left: 2.5rem;
   }
 }
@@ -142,6 +141,7 @@
   font-size: 2.5rem;
   color: $primary-color;
   font-weight: 300;
+  padding-left: 1.7rem;
   @media(min-width: $ipad-breakpoint){   
       font-size: 3rem;
       padding-left: 3rem;
