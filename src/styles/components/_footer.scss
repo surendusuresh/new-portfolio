@@ -1,0 +1,120 @@
+.footer {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  margin: auto;
+  @media (min-width: $ipad-breakpoint) {
+  }
+}
+.footer__box {
+  width: 100%;
+  border-radius: 0px;
+  background-color: $primary-color;
+  color: lighten(black, 10%);
+  font-size: 14px;
+  overflow: hidden;
+  a {
+    text-decoration: none;
+  }
+  span {
+    font-weight: 300;
+  }
+  @media (min-width: $ipad-breakpoint) and (max-width: $desktop-breakpoint) {
+    height: 45rem;
+    font-size: 19px;
+    margin-top: 2rem;
+  }
+  @media (min-width: $desktop-breakpoint) {
+    height: 30rem;
+    font-size: 19px;
+  }
+}
+
+.footer__line {
+  border: 6px solid darken(white, 5%);
+  background-color: darken(white, 5%);
+  font-size: 1.5rem;
+}
+
+.footer__flex {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0.3rem;
+  justify-content: space-around;
+  @media (min-width: $ipad-breakpoint) {
+    padding-top: 3rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: left;
+  }
+}
+
+.footer__intro {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 0.2rem;
+  padding: 0.1rem;
+  img {
+    width: 10rem;
+    height: 14rem;
+    min-height: 14rem !important;
+    margin: 0.4rem !important;
+  }
+  @media (min-width: $ipad-breakpoint) {
+    flex-direction: row;
+    padding-left: 2rem;
+    max-width: 50rem;
+    padding-right: 2rem;
+    img {
+      width: 14rem;
+      height: 15rem;
+    }
+    h3,
+    h4 {
+      padding-left: 1rem;
+      font-weight: 300;
+      padding-top: 1rem;
+    }
+  }
+}
+
+.footer__items {
+  margin-left: 2rem;
+  font-size: 20px;
+  @media (min-width: $ipad-breakpoint) {
+    font-size: 22px;
+    margin-left: 1rem;
+  }
+}
+
+.footer__white {
+  color: white;
+  font-size: 14px;
+}
+
+.footer__img {
+  width: 2rem;
+  height: 2rem;
+  min-height: 2rem !important;
+  margin: 0.2rem !important;
+  margin-top: 1rem !important;
+}
+
+.footer__copyright {
+  position: relative;
+  bottom: 0;
+  margin-top: auto;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem 0;
+  width: 100%;
+  @media (min-width: $ipad-breakpoint) {
+    position: absolute;
+    padding-bottom: 1rem;
+  }
+}
+
+.footer__content {
+  font-size: 1.6rem;
+}

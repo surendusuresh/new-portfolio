@@ -1,0 +1,13 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: darken(white, 5%);
+}
+
+.loader__image {
+  max-height: 6rem !important;
+  max-width: 6rem !important;
+  min-height: 6rem !important;
+  min-width: 6rem !important;
+}
