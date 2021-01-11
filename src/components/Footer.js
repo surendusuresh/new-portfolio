@@ -42,9 +42,22 @@ const Footer = () => {
                 src="https://firebasestorage.googleapis.com/v0/b/new-portfolio-3502a.appspot.com/o/images%2Flinkedin.png?alt=media&token=93993f6c-cc3f-45bd-9dec-48512fefc164"
                 alt="linkedin"
               />
-              <span className="footer__white"> LINKEDIN</span>
+              <span className="footer__white">LINKEDIN</span>
             </a>
             <h6>Connect with me via LinkedIn</h6>
+            <a
+              href="https://github.com/surendusuresh/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="footer__img"
+                src="https://firebasestorage.googleapis.com/v0/b/new-portfolio-3502a.appspot.com/o/images%2Fgithub.png?alt=media&token=e444160d-1132-4cdb-83f7-65cbc1cbdd70"
+                alt="github"
+              />
+              <span className="footer__white">GITHUB</span>
+            </a>
+            <h6>Connect with me via GitHub</h6>
             <NavHashLink to="/contact" className="footer__white">
               GET IN TOUCH
             </NavHashLink>

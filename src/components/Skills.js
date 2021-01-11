@@ -18,17 +18,69 @@ const Skills = () => {
     <Parallax bgImage={img2} strength={500}>
       <div id="skills" className="content anchor">
         <div className="content__parallax content__box">
-          <h2 className="content__header">Skills and Proficiencies</h2>
-          <dl className="content__content">
-            <dt>Front End Designing</dt>
-            <dd>SEO friendly and Responsive Web Design using ReactJS </dd>
-            <dt>Back End Designing</dt>
-            <dd>Design backend using NodeJS, Express, MongoDB/Firebase etc.</dd>
-            <dt>Amazon Web Service</dt>
-            <dd>Cloud services design and architecture using AWS</dd>
-            <dt>UiPath RPA Development</dt>
-            <dd>Automate business processes using UiPath RPA</dd>
-          </dl>
+          <h2 className="content__header">Skills and Tools</h2>
+          <div className="content__content">
+            <img
+              align="left"
+              alt="React"
+              width="75px"
+              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
+            />
+            <img
+              align="left"
+              alt="React"
+              width="75px"
+              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/aws/aws.png"
+            />
+            <img
+              align="left"
+              alt="HTML5"
+              width="75px"
+              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
+            />
+            <img
+              align="left"
+              alt="CSS3"
+              width="75px"
+              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
+            />
+            <img
+              align="left"
+              alt="Sass"
+              width="75px"
+              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png"
+            />
+            <img
+              align="left"
+              alt="JavaScript"
+              width="75px"
+              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
+            />
+            <img
+              align="left"
+              alt="Node.js"
+              width="75px"
+              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
+            />
+            <img
+              align="left"
+              alt="MongoDB"
+              width="75px"
+              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
+            />
+            <img
+              align="left"
+              alt="GitHub"
+              width="75px"
+              src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png"
+            />
+            <img
+              align="left"
+              alt="GitHub"
+              width="75px"
+              src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/django/django.png"
+            />
+          </div>
         </div>
       </div>
     </Parallax>

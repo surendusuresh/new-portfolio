@@ -16,11 +16,11 @@
 }
 
 .content__parallax {
-  p, a {
-    color: darken(white,5%);
+  p,
+  a {
+    color: darken(white, 5%);
     text-decoration: none;
   }
-  
 }
 
 .content__img {
@@ -55,12 +55,20 @@
   color: grey;
   padding-bottom: 2rem;
   dt {
-    color: $primary-color;    
+    color: $primary-color;
     text-align: center;
   }
   dd {
     color: silver;
     padding-bottom: 3.5rem;
+  }
+  img {
+    margin: 2.6rem;
+    width: 40px;
+    @media (min-width: $desktop-breakpoint) {
+      width: 75px;
+      margin: 2rem;
+    }
   }
   @media (min-width: $desktop-breakpoint) {
     width: 50%;
@@ -76,7 +84,7 @@
   margin-right: 0;
   margin-left: 0;
   width: 100%;
-  height: auto;
+  min-height: 50rem;
   background: #000000b8;
   box-sizing: border-box;
   @media (min-width: $desktop-breakpoint) {
@@ -115,24 +123,24 @@
 
 .contact__form {
   margin: $s-size;
-  @media(min-width: $ipad-breakpoint){
-      margin-top: $s-size;
-      max-width: 80rem;
+  @media (min-width: $ipad-breakpoint) {
+    margin-top: $s-size;
+    max-width: 80rem;
   }
 }
 
-.contact__form-border{
+.contact__form-border {
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 5px;  
-  
+  padding: 5px;
+
   justify-content: center;
   margin: auto;
-  @media(min-width: $ipad-breakpoint){
-      padding: 20px;
-      margin-bottom: 20px;
-      width: 50%;
-      margin-left: 2.5rem;
+  @media (min-width: $ipad-breakpoint) {
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    margin-left: 2.5rem;
   }
 }
 
@@ -142,9 +150,9 @@
   color: $primary-color;
   font-weight: 300;
   padding-left: 1.7rem;
-  @media(min-width: $ipad-breakpoint){   
-      font-size: 3rem;
-      padding-left: 3rem;
+  @media (min-width: $ipad-breakpoint) {
+    font-size: 3rem;
+    padding-left: 3rem;
   }
 }
 
@@ -176,7 +184,7 @@
   margin-top: 2rem;
   margin-right: 2rem;
   &:disabled {
-      background-color:grey;
+    background-color: grey;
   }
 }
 

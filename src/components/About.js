@@ -6,8 +6,8 @@ const About = () => (
     <h2 className="content__header">About me</h2>
     <p className="content__content">
       Hi, I am Surendu, an IT professional with 12 years of experience. I am a
-      graduate in computer science and engineering. I am well versed in latest
-      web technologies like ReactJS, NodeJS, MongoDB, Express and cloud
+      graduate in computer science and engineering. I am a self taught web
+      developer experienced in ReactJS, NodeJS, MongoDB, Express and cloud
       solutions in Amazon Web Service. I am also a certified UiPath RPA
       Developer.
     </p>
@@ -21,8 +21,8 @@ const About = () => (
     </p>
     <br></br>
     <p className="content__content">
-      I am a people's person who loves to interact with people to understand their
-      perspective on different aspects of professional growth.
+      I am a tech enthusiast who loves to interact with people to understand
+      their perspective on different aspects of professional growth.
     </p>
     <p className="content__content">
       <NavHashLink to="/#skills" smooth className="content__link">
