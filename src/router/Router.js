@@ -9,6 +9,7 @@ const Router = () => (
       <Route path="/index" exact component={Home} />
       <Route path="/contact" exact component={Contact} />
       <Redirect exact from="/" to="/index" />
+      <Route path="*" component={Home} />
     </Switch>
   </BrowserRouter>
 );
