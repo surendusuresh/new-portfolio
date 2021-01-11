@@ -198,3 +198,12 @@
   width: 90% !important;
   margin: auto;
 }
+
+.ReactGridGallery_tile-viewport {
+  img {
+    width: 20rem !important;
+    @media (min-width: $ipad-breakpoint) {
+      width: 36rem !important;
+    }
+  }
+}
