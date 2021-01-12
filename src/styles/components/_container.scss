@@ -199,3 +199,21 @@
   margin: auto;
 }
 
+.portfolio-cards {
+  display: flex;
+  flex-direction: column;
+  .card-title {
+    font-size:medium !important;
+    font-weight: 700 !important;
+  }
+  .card-text {
+    font-size: small !important;
+  }
+  @media (min-width: $desktop-breakpoint) {
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    
+  }
+}
