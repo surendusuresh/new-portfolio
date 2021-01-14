@@ -9,7 +9,7 @@ const Skills = () => {
   useEffect(() => {
     const storage = firebase.storage();
     storage
-      .ref("/images/parallax/2.jpg")
+      .ref("/images/parallax/2.webp")
       .getDownloadURL()
       .then((url) => setImg2(url));
   }, []);

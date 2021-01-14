@@ -9,7 +9,7 @@ const Certificates = () => {
   useEffect(() => {
     const storage = firebase.storage();
     storage
-      .ref("/images/parallax/1.jpg")
+      .ref("/images/parallax/1.webp")
       .getDownloadURL()
       .then((url) => setImg1(url));
   }, []);

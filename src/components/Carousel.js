@@ -12,15 +12,15 @@ const CarouselPage = () => {
   useEffect(() => {
     const storage = firebase.storage();
     storage
-      .ref("/images/carousel/1.jpg")
+      .ref("/images/carousel/1.webp")
       .getDownloadURL()
       .then((url) => setImg1(url));
     storage
-      .ref("/images/carousel/2.jpg")
+      .ref("/images/carousel/2.webp")
       .getDownloadURL()
       .then((url) => setImg2(url));
     storage
-      .ref("/images/carousel/3.jpg")
+      .ref("/images/carousel/3.webp")
       .getDownloadURL()
       .then((url) => setImg3(url));
   }, []);
