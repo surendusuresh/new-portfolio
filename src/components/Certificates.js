@@ -23,36 +23,33 @@ const Certificates = () => {
             <dt>B. Tech in Computer Science and Engineering</dt>
             <dd>From Cochin University of Science and Technology, India </dd>
             <dt>AWS Certified Solution Architect - Associate</dt>
-            <dd>
-              Certificate issued by Amazon Web Services.{" "}
+            <dd>              
               <a
                 href="https://www.youracclaim.com/badges/86c68dcc-13c2-482f-8326-266788f4008a"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Click Here
+                Certificate issued by Amazon Web Services
               </a>
             </dd>
             <dt>AWS Certified Developer - Associate</dt>
-            <dd>
-              Certificate issued by Amazon Web Services.{" "}
+            <dd>              
               <a
                 href="https://www.youracclaim.com/badges/12b90bed-374d-407b-9371-2c3f73660f33"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Click Here
+                Certificate issued by Amazon Web Services
               </a>
             </dd>
             <dt>UiPath RPA Developer - Advanced</dt>
-            <dd>
-              Certificate issued by UiPath.{" "}
+            <dd>              
               <a
                 href="https://certificate.uipath.com/validation/diploma/code=328078564820562586"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Click Here
+                Certificate issued by UiPath
               </a>
             </dd>
           </dl>
