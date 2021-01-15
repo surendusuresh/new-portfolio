@@ -76,7 +76,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer__copyright">
-          <h6>Copyright&#169; Surendu Suresh</h6>
+          <h6>Copyright&#169; {(new Date().getFullYear())} | Surendu Suresh</h6>
         </div>
       </div>
     </div>
