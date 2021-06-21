@@ -9,7 +9,6 @@ const Footer = () => {
           <img
             src="https://firebasestorage.googleapis.com/v0/b/new-portfolio-3502a.appspot.com/o/images%2FmyImage.jpg?alt=media&token=3931dd8b-52d8-44cc-8faf-fbee2ec72da1"
             alt="Surendu Suresh"
-            className=""
           />
         </div>
         <div>
@@ -72,11 +71,10 @@ const Footer = () => {
               PORTFOLIO
             </NavHashLink>
             <h6>Learn about past works</h6>
-            
           </div>
         </div>
         <div className="footer__copyright">
-          <h6>Copyright&#169; {(new Date().getFullYear())} | Surendu Suresh</h6>
+          <h6>Copyright&#169; {new Date().getFullYear()} | Surendu Suresh</h6>
         </div>
       </div>
     </div>
