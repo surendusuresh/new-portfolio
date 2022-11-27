@@ -1,5 +1,5 @@
 {
-  "name": "architect-site",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,9 +10,8 @@
     "compression": "^1.7.4",
     "emailjs-com": "^2.6.4",
     "express": "^4.17.1",
-    "firebase": "^8.2.1",
+    "firebase": "^9.14.0",
     "list-react-files": "^0.2.0",
-    "node-sass": "^4.14.1",
     "normalize.css": "^8.0.1",
     "path": "^0.12.7",
     "react": "^17.0.1",
@@ -26,6 +25,7 @@
     "react-scripts": "4.0.1",
     "react-sticky": "^6.0.3",
     "react-sticky-el": "^2.0.5",
+    "sass": "^1.56.1",
     "validator": "^13.5.2",
     "web-vitals": "^0.2.4"
   },

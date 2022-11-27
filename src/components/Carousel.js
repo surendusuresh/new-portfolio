@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import "firebase/storage";
+import "firebase/compat/storage";
 import { firebase } from "../firebase/firebase";
 
 const CarouselPage = () => {
@@ -12,9 +12,13 @@ const CarouselPage = () => {
   useEffect(() => {
     const storage = firebase.storage();
     storage
-      .ref("/images/carousel/1.webp")
+      .ref()
+      .child("images")
+      .child("carousel")
+      .child("1.webp")
       .getDownloadURL()
-      .then((url) => setImg1(url));
+      .then((url) => setImg1(url))
+      .catch((err) => console.log(err));
     storage
       .ref("/images/carousel/2.webp")
       .getDownloadURL()
