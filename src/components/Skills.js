@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Parallax } from "react-parallax";
-import "firebase/storage";
+import "firebase/compat/storage";
 import { firebase } from "../firebase/firebase";
 
 const Skills = () => {
@@ -85,6 +85,24 @@ const Skills = () => {
               alt="GitHub"
               width="75px"
               src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/django/django.png"
+            />
+            <img
+              align="left"
+              alt="Java"
+              width="75px"
+              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
+            />
+            <img
+              align="left"
+              alt="Docker"
+              width="75px"
+              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png"
+            />
+            <img
+              align="left"
+              alt="Kubernetes"
+              width="75px"
+              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kubernetes/kubernetes.png"
             />
           </div>
         </div>

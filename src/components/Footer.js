@@ -6,12 +6,6 @@ const Footer = () => {
     return (
       <div className="footer__intro flex">
         <div>
-          <img
-            src="https://firebasestorage.googleapis.com/v0/b/new-portfolio-3502a.appspot.com/o/images%2FmyImage.jpg?alt=media&token=3931dd8b-52d8-44cc-8faf-fbee2ec72da1"
-            alt="Surendu Suresh"
-          />
-        </div>
-        <div>
           <h4 className="footer__content">
             I am a Full Stack Developer with 12 years of industry experience. I
             have experience in AWS, UiPath RPA Development and as Siebel
@@ -66,11 +60,10 @@ const Footer = () => {
             <NavHashLink to="#about" className="footer__white">
               ABOUT
             </NavHashLink>
-            <h6>Learn more about Surendu Suresh</h6>
+            <br></br>
             <NavHashLink to="#portfolio" className="footer__white">
               PORTFOLIO
             </NavHashLink>
-            <h6>Learn about past works</h6>
           </div>
         </div>
         <div className="footer__copyright">

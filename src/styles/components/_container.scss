@@ -35,7 +35,7 @@
 
 .content__header {
   color: $primary-color;
-  text-decoration: underline;
+  text-decoration: none;
   text-align: center;
   width: 80%;
   margin: auto;
@@ -50,9 +50,9 @@
 .content__content {
   width: 80%;
   justify-content: center;
-  text-align: center;
+  text-align: left;
   margin: auto;
-  color: grey;
+  color: rgb(174, 174, 174);
   padding-bottom: 2rem;
   dt {
     color: $primary-color;
@@ -61,6 +61,7 @@
   dd {
     color: silver;
     padding-bottom: 3.5rem;
+    text-align: center;
   }
   img {
     margin: 2.6rem;
@@ -131,7 +132,7 @@
 
 .contact__form-border {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #9c9696;
   padding: 5px;
 
   justify-content: center;

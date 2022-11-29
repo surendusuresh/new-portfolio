@@ -2,7 +2,7 @@
   margin-top: $s-size;
   margin-bottom: $l-size;
   width: 100%;
-  background-color: darken(white, 5%);
+  background-color: darken(rgb(52, 51, 51), 5%);
   top: 0;
   position: fixed;
   z-index: 99;
@@ -27,11 +27,13 @@
 .header__link {
   font-weight: 500;
   font-size: 1.5rem;
-  margin-top: 2rem;
+  padding: 5px 10px;
+  margin-top: 3rem;
   margin-right: 5rem;
   margin-bottom: 2rem;
   position: relative;
   display: flex;
+  
 
   &:focus,
   &:visited,
@@ -40,9 +42,14 @@
   &:hover {
     text-decoration: none;
     color: $primary-color;
+    
   }
   &:hover {
     cursor: pointer;
+    border: 2px solid rgb(6, 186, 196);
+    background-color:rgb(6, 186, 196);
+    color: white;
+    border-radius: 20px;
   }
   @media (min-width: $desktop-breakpoint) {
     display: inline-flex;
@@ -57,16 +64,16 @@
 }
 
 .header__logo {
-  width: 6rem;
-  height: 6rem;
+  width: 8rem;
+  height: 8rem;
   min-height: 4rem;
   margin-left: $s-size;
-  margin-top: 0.7rem;
-  margin-bottom: 0.3rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
   position: relative;
   z-index: 11000;
   @media (min-width: $desktop-breakpoint) {
-    width: 7rem;
-    height: 7rem;
+    width: 9rem;
+    height: 9rem;
   }
 }

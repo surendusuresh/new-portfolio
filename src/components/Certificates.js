@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Parallax } from "react-parallax";
-import "firebase/storage";
+import "firebase/compat/storage";
 import { firebase } from "../firebase/firebase";
 
 const Certificates = () => {
